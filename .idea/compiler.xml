@@ -11,6 +11,9 @@
         <module name="suanFa" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="fanshe" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

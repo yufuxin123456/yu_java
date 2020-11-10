@@ -12,7 +12,6 @@
         <module>easy_excel</module>
         <module>aa</module>
         <module>suanFa</module>
-        <module>fanshe</module>
     </modules>
 
     <!-- 1 确定spring boot的版本-->
