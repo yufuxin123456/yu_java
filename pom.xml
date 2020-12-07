@@ -10,6 +10,12 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>FanYi</module>
+        <module>nacos_test</module>
+        <module>nacos-service-consumer</module>
+        <module>nacos-service-provider</module>
+        <module>service-nacos-config</module>
+        <module>nacos-config-gongxiang</module>
+        <module>nacos-common-congig-01</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -41,11 +47,7 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
-            <version>2.1.0.RELEASE</version>
-        </dependency>
+
     </dependencies>
 
     <build>

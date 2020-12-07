@@ -6,20 +6,33 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="aa" />
-        <module name="easy_excel" />
-        <module name="suanFa" />
+        <module name="nacos-service-consumer" />
+        <module name="nacos_test" />
+        <module name="nacos-common-config-01" />
+        <module name="service-nacos-config" />
+        <module name="nacos-config-common-02" />
+        <module name="nacos-service-provider" />
+        <module name="FanYi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="fanshe" target="1.5" />
+      <module name="easy_excel" target="1.5" />
+      <module name="nacos-service-config" target="1.8" />
+      <module name="suanFa" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="aa" options="-parameters" />
-      <module name="easy_excel" options="-parameters" />
-      <module name="suanFa" options="-parameters" />
+      <module name="FanYi" options="-parameters" />
+      <module name="nacos-common-config-01" options="-parameters" />
+      <module name="nacos-config-common-02" options="-parameters" />
+      <module name="nacos-config-gongxiang" options="" />
+      <module name="nacos-service-config" options="-parameters" />
+      <module name="nacos-service-consumer" options="-parameters" />
+      <module name="nacos-service-provider" options="-parameters" />
+      <module name="nacos_test" options="-parameters" />
+      <module name="service-nacos-config" options="-parameters" />
+      <module name="yu_java" options="" />
     </option>
   </component>
 </project>
