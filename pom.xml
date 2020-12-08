@@ -15,7 +15,7 @@
         <module>nacos-service-provider</module>
         <module>service-nacos-config</module>
         <module>nacos-config-gongxiang</module>
-        <module>nacos-common-congig-01</module>
+        <module>shou_quan_ren_zheng</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

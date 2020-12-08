@@ -1,0 +1,5 @@
+com\alonginfo\utils\MD5Util.class
+com\alonginfo\controller\FanyiController.class
+com\alonginfo\modle\Fanyi.class
+com\alonginfo\FanYiApplication.class
+com\alonginfo\service\FanyiService.class

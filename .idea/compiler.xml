@@ -7,7 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="nacos-service-consumer" />
+        <module name="resource-server" />
         <module name="nacos_test" />
+        <module name="authserver-authcode" />
         <module name="nacos-common-config-01" />
         <module name="service-nacos-config" />
         <module name="nacos-config-common-02" />
@@ -24,6 +26,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="FanYi" options="-parameters" />
+      <module name="authserver-authcode" options="-parameters" />
       <module name="nacos-common-config-01" options="-parameters" />
       <module name="nacos-config-common-02" options="-parameters" />
       <module name="nacos-config-gongxiang" options="" />
@@ -31,7 +34,9 @@
       <module name="nacos-service-consumer" options="-parameters" />
       <module name="nacos-service-provider" options="-parameters" />
       <module name="nacos_test" options="-parameters" />
+      <module name="resource-server" options="-parameters" />
       <module name="service-nacos-config" options="-parameters" />
+      <module name="shou_quan_ren_zheng" options="" />
       <module name="yu_java" options="" />
     </option>
   </component>
