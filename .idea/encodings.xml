@@ -3,6 +3,8 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/FanYi/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/FanYi/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LuoJi/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LuoJi/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-config-gongxiang/nacos-common-config-01/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-config-gongxiang/nacos-common-config-01/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nacos-config-gongxiang/nacos-config-common-02/src/main/java" charset="UTF-8" />
@@ -23,6 +25,8 @@
     <file url="file://$PROJECT_DIR$/shou_quan_ren_zheng/resource-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shou_quan_ren_zheng/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shou_quan_ren_zheng/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xian_cheng/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xian_cheng/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

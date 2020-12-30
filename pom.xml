@@ -16,6 +16,8 @@
         <module>service-nacos-config</module>
         <module>nacos-config-gongxiang</module>
         <module>shou_quan_ren_zheng</module>
+        <module>xian_cheng</module>
+        <module>LuoJi</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
