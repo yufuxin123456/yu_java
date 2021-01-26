@@ -18,6 +18,8 @@
         <module>shou_quan_ren_zheng</module>
         <module>xian_cheng</module>
         <module>LuoJi</module>
+        <module>She_ji_mo_shi</module>
+        <module>JDK1.8</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
