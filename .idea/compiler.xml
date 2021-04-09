@@ -7,19 +7,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="LuoJi" />
-        <module name="resource-server" />
-        <module name="nacos_test" />
-        <module name="JDK1.8" />
-        <module name="authserver-authcode" />
-        <module name="nacos-common-config-01" />
         <module name="xian_cheng" />
-        <module name="service-nacos-config" />
+        <module name="nacos-common-config-01" />
+        <module name="Aop-test" />
+        <module name="LuoJi" />
         <module name="nacos-config-common-02" />
+        <module name="service-nacos-config" />
+        <module name="authserver-authcode" />
         <module name="nacos-service-provider" />
-        <module name="nacos-service-consumer" />
-        <module name="FanYi" />
+        <module name="Interceptor" />
+        <module name="nacos_test" />
         <module name="She_ji_mo_shi" />
+        <module name="resource-server" />
+        <module name="JDK1.8" />
+        <module name="FanYi" />
+        <module name="nacos-service-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -30,7 +32,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Aop-test" options="-parameters" />
       <module name="FanYi" options="-parameters" />
+      <module name="Interceptor" options="-parameters" />
       <module name="JDK1.8" options="-parameters" />
       <module name="LuoJi" options="-parameters" />
       <module name="She_ji_mo_shi" options="-parameters" />

@@ -20,6 +20,8 @@
         <module>LuoJi</module>
         <module>She_ji_mo_shi</module>
         <module>JDK1.8</module>
+        <module>Interceptor</module>
+        <module>Aop-test</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

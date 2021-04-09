@@ -1,9 +1,0 @@
-server:
-  port:
-spring:
-  application:
-    name: service-consumer
-  cloud:
-    nacos:
-      discovery:
-        server-addr: http://123.57.73.149/:8848
