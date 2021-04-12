@@ -22,6 +22,8 @@
         <module>JDK1.8</module>
         <module>Interceptor</module>
         <module>Aop-test</module>
+        <module>Fan-she</module>
+        <module>StringUtils-test</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

@@ -12,17 +12,17 @@ import org.springframework.web.bind.annotation.*;
 public class TestController {
 
     @PostMapping("/show")
-    public TestPojo show(@RequestBody TestPojo testPojo) {
+    public Result show(@RequestBody TestPojo testPojo) {
         System.out.println("show2----------------------------------"+testPojo);
-        return testPojo;
+        return Result.okData(testPojo);
     }
 
     @PostMapping("/show2")
-    public TestPojo show2(@RequestBody TestPojo testPojo) {
+    public Result show2(@RequestBody TestPojo testPojo) {
         System.out.println("show2----------------------------------"+testPojo);
         String userId = testPojo.getUserId();
         System.out.println(userId);
-        return testPojo;
+        return Result.okData(testPojo);
     }
 }
 

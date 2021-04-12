@@ -9,6 +9,7 @@ import org.springframework.core.annotation.Order;
 import org.springframework.web.context.request.RequestAttributes;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
+import yu.com.test2.Result;
 import yu.com.test2.TestPojo;
 
 import javax.servlet.http.HttpServletRequest;
@@ -32,7 +33,11 @@ import java.util.Map;
 @Configuration // 配置类
 public class TestAspect {
 
+
     @Pointcut( "execution( * yu.com.test2..*.*(..))")
+    /**
+     * 这个方法的方法名要和下面注解方法名一致
+     */
     public void doPointcut(){
     }
 
@@ -92,9 +97,18 @@ public class TestAspect {
         System.out.println("==doAfter==");
     }
 
-    @AfterReturning("doPointcut()")
-    public void doAfterReturning(){
-        System.out.println("==doAfterReturning==");
+    /**
+     * 返回值拦截修改
+     * @param rvt
+     * @return
+     */
+    @AfterReturning(returning = "rvt",pointcut = "doPointcut()")
+    public Object AfterExec(Object rvt){
+        System.out.println(rvt+"========================");
+        Result result1 = (Result) rvt;
+        result1.setMsg("123645");
+        result1.setSuccess(true);
+        return rvt;
     }
 
     /**
