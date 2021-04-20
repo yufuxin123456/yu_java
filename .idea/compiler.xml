@@ -12,6 +12,7 @@
         <module name="Aop-test" />
         <module name="LuoJi" />
         <module name="nacos-config-common-02" />
+        <module name="Ding_shi" />
         <module name="service-nacos-config" />
         <module name="Fan-she" />
         <module name="authserver-authcode" />
@@ -35,6 +36,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Aop-test" options="-parameters" />
+      <module name="Ding_shi" options="-parameters" />
       <module name="Fan-she" options="-parameters" />
       <module name="FanYi" options="-parameters" />
       <module name="Interceptor" options="-parameters" />

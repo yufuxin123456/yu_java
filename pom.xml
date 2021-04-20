@@ -24,6 +24,7 @@
         <module>Aop-test</module>
         <module>Fan-she</module>
         <module>StringUtils-test</module>
+        <module>Ding_shi</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

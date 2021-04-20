@@ -105,6 +105,7 @@ public class TestAspect {
     @AfterReturning(returning = "rvt",pointcut = "doPointcut()")
     public Object AfterExec(Object rvt){
         System.out.println(rvt+"========================");
+        // 判断ryt是否是Result对象 不是不做封装，是做封装
         Result result1 = (Result) rvt;
         result1.setMsg("123645");
         result1.setSuccess(true);
